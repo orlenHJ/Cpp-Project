@@ -1,0 +1,10 @@
+﻿  CppSkills.cpp
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(247,8): error C2084: 函数“Score::Score(const Score &)”已有主体
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(241): message : 参见“{ctor}”的前一个定义
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(390,33): error C2665: “Score::Score”: 3 个重载中没有一个可以转换所有参数类型
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(234,8): message : 可能是“Score::Score(char *,int,int)”
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(390,15): message : “Score::Score(char *,int,int)”: 无法将参数 1 从“const char [5]”转换为“char *”
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(390,16): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(234,8): message : 参见“Score::Score”的声明
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(390,33): message : 尝试匹配参数列表“(const char [5], int, int)”时
+D:\C#\project\Cpp_skillstudy\CppSkills.cpp(391,22): error C2264: “Score::Score”: 函数定义或声明中有错误；未调用函数
